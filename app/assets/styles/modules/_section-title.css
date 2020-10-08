@@ -22,10 +22,16 @@
             margin-left: 0;
             display: inline-block;
             margin-bottom: 0;
+            position: relative;
+            top: 8px;
         }
     }
 
     &--b-margin-large {
         margin-bottom: 2.875rem;
+    }
+
+    &--blue {
+        color: $mainBlue;
     }
 }
