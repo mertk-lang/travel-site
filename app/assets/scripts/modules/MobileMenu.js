@@ -3,7 +3,7 @@ class MobileMenu {
         this.menuIcon = document.querySelector(".site-header__menu-icon");
         this.menuContent = document.querySelector(".site-header__menu-content");
         this.siteHeader = document.querySelector(".site-header")
-        this.events();
+        this.events();   
 
     }
 
@@ -17,5 +17,6 @@ class MobileMenu {
         this.menuIcon.classList.toggle("site-header__menu-icon--close-x")
     }
 }
+
 
 export default MobileMenu;
